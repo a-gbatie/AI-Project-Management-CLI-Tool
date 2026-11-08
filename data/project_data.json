@@ -1,0 +1,38 @@
+{
+    "users": [
+        {
+            "name": "Alex",
+            "email": "alex@example.com",
+            "id": 1,
+            "project_ids": [
+                1
+            ],
+            "task_ids": [
+                1
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "CLI Tool",
+            "owner_id": 1,
+            "description": "Build a Python project management tool",
+            "due_date": "",
+            "task_ids": [
+                1
+            ]
+        }
+    ],
+    "tasks": [
+        {
+            "id": 1,
+            "title": "Build user models",
+            "project_id": 1,
+            "status": "complete",
+            "assigned_to": [
+                1
+            ]
+        }
+    ]
+}
